@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  // Post List UI with Pagination
+  /// Post List UI with Pagination
   Widget _buildPostList() {
     return Obx(() {
       if (userController.users.isEmpty && userController.isLoading.value) {
